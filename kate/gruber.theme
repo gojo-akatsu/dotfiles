@@ -2,12 +2,12 @@
     "custom-styles": {
         "Alerts": {
             "Alert Level 1": {
-                "background-color": "#181818",
+                "background-color": "#282828",
                 "selected-text-color": "#cc8c3c",
                 "text-color": "#cc8c3c"
             },
             "Alert Level 2": {
-                "background-color": "#181818",
+                "background-color": "#282828",
                 "selected-text-color": "#cc8c3c",
                 "text-color": "#cc8c3c"
             }
@@ -360,7 +360,7 @@
         "BackgroundColor": "#282828",
         "BracketMatching": "#96a6c8",
         "CodeFolding": "#224e65",
-        "CurrentLine": "#282828",
+        "CurrentLine": "#303030",
         "CurrentLineNumber": "#ffdd33",
         "IconBorder": "#282828",
         "IndentationLine": "#3a3f44",
