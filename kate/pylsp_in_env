@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+path="$1"
+cd $path
+if [ -d ./.venv ]; then
+  source ./.venv/bin/activate
+elif [ -d ./venv ]; then
+  source ./venv/bin/activate
+elif [ -f ./Pipfile ]; then
+  exec pipenv run basedpyright-langserver --stdio
+  exit 0
+fi
+
+exec basedpyright-langserver --stdio
