@@ -357,12 +357,12 @@
         }
     },
     "editor-colors": {
-        "BackgroundColor": "#181818",
+        "BackgroundColor": "#282828",
         "BracketMatching": "#96a6c8",
         "CodeFolding": "#224e65",
         "CurrentLine": "#282828",
         "CurrentLineNumber": "#ffdd33",
-        "IconBorder": "#181818",
+        "IconBorder": "#282828",
         "IndentationLine": "#3a3f44",
         "LineNumbers": "#52494e",
         "MarkBookmark": "#0404bf",
