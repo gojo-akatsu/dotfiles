@@ -10,19 +10,9 @@
         ],
         "formatOnSave": true
     },
-    "dart": {
-        "command": [
-            "dart"
-        ]
-    },
     "jq": {
         "command": [
             "jq"
-        ]
-    },
-    "prettier": {
-        "command": [
-            "node"
         ]
     },
     "rustfmt": {
@@ -50,39 +40,9 @@
             "cmake-format"
         ]
     },
-    "autopep8": {
-        "command": [
-            "autopep8"
-        ]
-    },
     "ruff": {
         "command": [
             "ruff"
-        ]
-    },
-    "dfmt": {
-        "command": [
-            "dfmt"
-        ]
-    },
-    "fish_indent": {
-        "command": [
-            "fish_indent"
-        ]
-    },
-    "shfmt": {
-        "command": [
-            "shfmt"
-        ]
-    },
-    "nixfmt": {
-        "command": [
-            "nixfmt"
-        ]
-    },
-    "qmlformat": {
-        "command": [
-            "qmlformat"
         ]
     },
     "yamlfmt": {
@@ -91,28 +51,6 @@
             "-formatter",
             "retain_line_breaks=true",
             "-quiet",
-            "-"
-        ]
-    },
-    "opsi-script-beautifier": {
-        "command": [
-            "opsi-script-beautifier",
-            "-s"
-        ]
-    },
-    "odinfmt": {
-        "command": [
-            "odinfmt"
-        ]
-    },
-    "swiftformat": {
-        "command": [
-            "swiftformat"
-        ]
-    },
-    "erlfmt": {
-        "command": [
-            "erlfmt",
             "-"
         ]
     },
