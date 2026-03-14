@@ -1,0 +1,115 @@
+{
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Pale Fire High Contrast",
+    "editor.bracketPairColorization.enabled": false,
+    "accessibility.dimUnfocused.enabled": false,
+    "workbench.panel.opensMaximized": "never",
+    "window.enableMenuBarMnemonics": false,
+    "window.menuBarVisibility": "hidden",
+    "window.newWindowDimensions": "maximized",
+    "window.restoreWindows": "none",
+    "window.title": "${rootPath}",
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.labelFormat": "long",
+    "workbench.editor.enablePreview": true,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 16,
+    "workbench.colorCustomizations": {
+        "scrollbar.shadow": "#00000000",
+        "widget.shadow": "#00000000"
+    },
+    // "workbench.productIconTheme": "IntelliJ",
+    "workbench.preferredDarkColorTheme": "Pale Fire High Contrast",
+    "workbench.preferredLightColorTheme": "Default Light Modern",
+    "workbench.activityBar.location": "hidden",
+    "outline.showVariables": false,
+    "breadcrumbs.showVariables": false,
+    "editor.accessibilitySupport": "off",
+    "editor.codeLens": false,
+    "editor.rulers": [
+        100
+    ],
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "line",
+    "editor.cursorSurroundingLines": 5,
+    "editor.dragAndDrop": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.formatOnSave": true,
+    "editor.hover.enabled": "off",
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.renderWhitespace": "selection",
+    "editor.roundedSelection": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabCompletion": "off",
+    "editor.inlineSuggest.enabled": false,
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    // "editor.guides.indentation": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.wordBasedSuggestions": "allDocuments",
+    "editor.autoIndent": "advanced",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.semanticTokenColorCustomizations": {
+        "[Pale Fire High Contrast]": {
+            "rules": {
+                "unresolvedReference": "#9C6363",
+                "parameter": "#DCDCCC",
+                "property": "#DFAF8F"
+            }
+        }
+    },
+    "editor.glyphMargin": false,
+    "editor.lineDecorationsWidth": 0, // undocumented
+    "editor.lineNumbersMinChars": 0, // undocumented
+    "projectNameInStatusBar.align": "right",
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 1,
+    "extensions.autoUpdate": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "files.enableTrash": true,
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.sendKeybindingsToShell": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "editor.action.marker.nextInFiles"
+    ],
+    "update.mode": "manual",
+    "update.showReleaseNotes": false,
+    "git.alwaysShowStagedChangesResourceGroup": false,
+    "git.autoRepositoryDetection": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.blame.editorDecoration.enabled": false,
+    // "debug.onTaskErrors": "debugAnyway",
+    //Plugins
+    "rust-analyzer.completion.callable.snippets": "add_parentheses",
+    "rust-analyzer.runnables.problemMatcher": [
+        "$rustc",
+        "$rust-panic",
+    ],
+    "rust-analyzer.testExplorer": true,
+    "rust-analyzer.diagnostics.experimental.enable": true,
+    // "rust-analyzer.runnables.extraTestBinaryArgs": [
+    // "--nocapture"
+    // ],
+    "lldb.suppressUpdateNotifications": true,
+    "chat.agentsControl.enabled": false,
+    "workbench.layoutControl.enabled": false,
+}
